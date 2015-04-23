@@ -14,7 +14,7 @@ $(document).ready(function(){
 	});
 
 	$("#lines").on("click", ".color", function(){
-		$(this).parent("div").addClass('colorChange');
+		$(this).parent("div").toggleClass('colorChange');
 	});
 
 });
