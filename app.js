@@ -6,6 +6,7 @@ $(document).ready(function(){
 	$("#generateLines").click(function(){
 		var addLine = "<div>Line #" + numClicks + " <button class='color'>Change Color</button><button class='remove'>Remove</button></div>";
 		$("#lines").append(addLine);
+		$(".counter").text(numClicks + " line(s) generated");
 		numClicks++;
 	});
 

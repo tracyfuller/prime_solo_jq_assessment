@@ -1,3 +1,12 @@
+button {
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.container{
+	width: 400px;
+}
+
 .colorChange {
 	background-color: #ff00ff;
 }
